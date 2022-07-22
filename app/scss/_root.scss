@@ -1,5 +1,9 @@
+@use "functions" as f;
+
 :root {
   --clr-primary: hsl(197, 67%, 29%);
+
+  --calculator-width: clamp(#{f.toRem(300)}, 30vw, #{f.toRem(900)});
 
   --btn-spacer: 0.5rem;
 }

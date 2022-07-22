@@ -7,9 +7,9 @@
 .calculator {
   display: flex;
   flex-direction: column;
-  width: 20vw;
-  height: 30vw;
-  font-size: calc(20vw / 16);
+  width: var(--calculator-width);
+  height: calc(var(--calculator-width) * 1.5);
+  font-size: calc(var(--calculator-width) / 16);
   gap: var(--btn-spacer);
   padding: var(--btn-spacer);
   border: 2px solid black;
